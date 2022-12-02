@@ -1,0 +1,120 @@
+.form-box {
+    background-color: white;
+    padding: 30px 10px;
+    position: relative;
+    bottom: 80px;
+}
+.color-blue{
+    color: #6ec2e3;
+}
+.color-dark-blue{
+    color: #3bb2dd;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-22{
+    font-size: 22px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-12{
+    font-size: 12px;
+}
+.fs-12{
+    font-size: 12px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-11{
+    font-size: 11px;
+}
+.fs-28{
+    font-size: 28px;
+}
+.inline-height{
+  line-height: 1;
+}
+.blue{
+    background-color: #20a8d9;
+}
+.img-height{
+    height: 65% !important;
+}
+.input-border {
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+.displya-button-position{
+    position: relative;
+    top: 50px;
+    color: white;
+    font-weight: bold;
+}
+.text-green{
+    color: rgb(13, 154, 13);
+}
+.light-theme-card-body{
+    background-color: RGB(238 243 249);
+}
+.photo{
+    display: flex ;
+    align-items: center ;
+    flex-wrap: wrap; 
+}
+.car-select-border{
+    border: 1px solid #1aa6da;
+}
+.form-heading{
+    width: 300px;
+}
+.submit-form-btn:hover{
+    background-color: black;
+    color: white;
+}
+.about-box{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+@media only screen and (max-width: 912px) {
+    .bg-immage {
+        /* height: 206px !important; */
+        background-image: url('./immages/savaari-desktop-banner.webp');
+        width: 100%;
+        /* height: 300px; */
+    }
+    .form-box {
+        background-color: white;
+        padding: 30px 10px;
+        position: relative;
+        top: 20px;
+    }
+    .displya-button-position{
+        position: relative;
+        top: 50px;
+        color: white;
+        font-weight: bold;
+        width: 200px !important;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .sawari-apart{
+        margin-top: 70px;
+    }
+    .photo img{
+        margin-top: 40px;
+    }
+} 
+
